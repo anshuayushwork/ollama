@@ -27,7 +27,7 @@ prompt=ChatPromptTemplate.from_messages(
 st.title('Langchain Demo With Tinyllama API')
 input_text=st.text_input("Search the topic u want")
 
-# ollama LLAma2 LLm 
+# ollama LLAma2 LLm fgffhfhh
 llm=Ollama(model="tinyllama")
 output_parser=StrOutputParser()
 chain=prompt|llm|output_parser
